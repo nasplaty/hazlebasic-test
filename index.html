@@ -11,8 +11,15 @@
     <title>hazlebasic | #BeExtraordianary</title>
     <link rel="stylesheet" type="text/css" href="DMI 30 03 2022 01.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   </head>
   <style>
+    div.relative {
+  position: relative;
+  left: 30px;
+    }
+
     div.relative {
   position: relative;
   left: 30px;
@@ -46,7 +53,7 @@
 footer {
   text-align: relative;
   padding: 3px;
-  background-color: darkslategrey;
+  background-color: #212529;
   color: white;
 }
   </style>
@@ -60,7 +67,7 @@ footer {
           <nav class="navbar navbar-expand-lg bg-light shadow p-3 mb-5 bg-body rounded position-sticky">
         <div class="container-fluid">
           <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="aset/hejellogo.png" alt="" width="170" height="51">
             </a>
           </div>
@@ -68,8 +75,8 @@ footer {
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="cari produk" aria-label="Search">
               <button class="btn btn-outline-secondary" type="submit"><img src="aset/search-free-icon-font(1).png" alt="" width="30" height="30"></button> &nbsp; &nbsp; &nbsp;
-              <a class="navbar-brand" href="#">
-                <img src="aset/shopping-cart-free-icon-font(1).png" alt="" width="30" height="30">
+              <a class="navbar-brand" href="shoppingpage.html">
+                <button class="btn btn-outline-secondary" type="submit"><img src="aset/shopping-cart-free-icon-font(1).png" alt="" width="30" height="30"></button> 
               </a>
             </form>
             
@@ -120,8 +127,9 @@ footer {
         </button>
       </div>
 <p></p>
+
 <div id="konten">
-<div class="relative">
+<div align="center">
       <h1 class="a">   #BeExtraordianary</h1> 
       <h2>   dengan produk pilihan kami</h2>
       <div class="row row-cols-1 row-cols-md-5 g-4">
@@ -157,6 +165,16 @@ footer {
         </div>
         <div class="col">
           <div class="card">
+            <img src="aset/produk5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ring Tees series</h5>
+              <p class="card-text">Baju hazle ini sangat nyaman dipakai</p>
+              <a href="#" class="btn btn-secondary">Beli Sekarang</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
             <img src="aset/produk4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Oversized Tees series</h5>
@@ -169,7 +187,6 @@ footer {
       </div>
     </div>
   </div>
-
   <br>
   <br>
   <br>
@@ -178,6 +195,7 @@ footer {
   <footer>
     <div class="relative">
     <p><img src="aset/hejellogo1.png" alt="" width="170" height="51"><br>
+    <p><h5>Jl. Sukajadi No. 292/182 A</h5></p>
     <a href="mailto:admin@hazlebasic.com">admin@hazlebasic.com</a></p>
     </div>
   </footer>
